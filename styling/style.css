@@ -1,0 +1,15 @@
+h1{
+    color: #771011;
+    font-size: 90pt;
+}
+*
+html, body, #page {
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.footer{
+    background-color: #C0BFB2;
+
+}
