@@ -8,8 +8,61 @@ html, body, #page {
     width:100%;
     margin:0;
     padding:0;
+    background-color:#ECE6D3;
 }
 .footer{
     background-color: #C0BFB2;
+padding: 10px;
+font-size: 14pt;
+color: #221712;
+}
 
+.imgsize{
+width: 408px;
+height: 565px;
+
+}
+
+.cardElements{
+    background-color: #C0BFB2;
+    color: #221712;
+    min-width: none;
+    height: 800px ;
+}
+
+.btn-danger{
+background-color: #ECE6D3;
+border: none;
+color: #221712;
+
+}
+.btn-danger:hover{
+background-color: #6f635B;
+border: none;
+color: #221712;
+}
+
+.navbar-style{
+    background-color: #C0BFB2;
+    color: #221712;
+
+}
+
+#active{
+    color: #771011;
+}
+
+.dropdown-style{
+    background-color: #6f635B;
+    color: #C0BFB2;
+}
+.dropdown-style:hover{
+    background-color: #221712;
+    color: #ECE6D3;
+}
+
+
+.dropdown-menu-style{
+    background-color: #6f635B;
+    color: #C0BFB2;
 }

@@ -9,20 +9,28 @@
 </head>
 <body>
 
+    
 
     <!--menu bar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-style  ">
         <div class="container-fluid">
             
-            <nav class="navbar bg-body-tertiary">
+            <nav class="navbar">
                 <div class="container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
                     <a class="navbar-brand" href="index.html">
                         <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
                     </a>
                 </div>
             </nav>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+            <div class="collapse navbar-collapse " id="navbarCollapse">
                 <!--FOR THE MENU STRUCTURE-->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     
@@ -44,56 +52,42 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="designWork.html">Design Work</a></li>
-                            <li><a class="dropdown-item" href="photogrpahy.html">Photogrpahy </a></li>
-                            <li><a class="dropdown-item" href="Illustrations.html">Illustrations</a></li>
+                        <ul class="dropdown-menu dropdown-menu-style">
+                            <li><a class="dropdown-item dropdown-style" href="designWork.html">Design Work</a></li>
+                            <li><a class="dropdown-item dropdown-style" href="photogrpahy.html">Photogrpahy </a></li>
+                            <li><a class="dropdown-item dropdown-style" href="Illustrations.html">Illustrations</a></li>
                         </ul>
                     </li>
-                    
+                
                     
                     
                 </ul>
             </div>
         </div>
+        </div>
     </nav>
     <div class="row">
-        <div class="width-auto height-auto">
+
+        <div class="col-md-3 col-sm-1"></div>
+
+        <div class="col-md-6 col-sm-10">
             <h1>MY PORTFOLIO</h1>
         </div>
+
+        <div class="col-md-3 col-sm-1"></div>
     </div>
 
 
     <BR></BR>
 
     <!--row 1-->
-    <div class="container-flex">
+    <div class="container-flex card-size">
+        
         <div class="row">    
             
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <img src="images/homepage1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <img src="images/homepage10.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <img src="../images/bodoniimage.jpeg" class="card-img-top" alt="...">
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage1.png" class="card-img-top imgsize" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -101,38 +95,83 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage2.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage3.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage4.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        
         </div>
     </div>
     
     <BR></BR>
 
+    <!--ROW 2-->
     <div class="container-flex">
         <div class="row">    
             
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <img src="images/homepgae11.png" class="card-img-top" alt="...">
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage5.png" class="card-img-top imgsize" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage6 .png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage7.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
                     </div>
                 </div>
             </div>
             
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <img src="images/homepage13.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="card">
-                    <img src="../images/bodoniimage.jpeg" class="card-img-top" alt="...">
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage8.png" class="card-img-top imgsize" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -143,8 +182,114 @@
         </div>
     </div>
 
+    <BR></BR>
 
 
+    <BR></BR>
+
+<!--ROW 3-->
+    <div class="container-flex">
+        <div class="row">    
+            
+            
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage10.jpg" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage11.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage12.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage13.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+    <BR></BR>
+
+    <!--row 4-->
+
+    <div class="container-flex">
+        <div class="row">    
+            
+            
+            
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage14.jpg" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage15.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="card cardElements">
+                    <img src="images/homepage16.png" class="card-img-top imgsize" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-danger">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<BR></BR>
     
     <!--footer-->
     <footer class="footer">
