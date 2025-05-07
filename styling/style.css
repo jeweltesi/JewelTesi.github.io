@@ -1,15 +1,50 @@
 h1{
     color: #771011;
     font-size: 90pt;
+
 }
-*
+
 html, body, #page {
-    height:100%;
-    width:100%;
     margin:0;
     padding:0;
     background-color:#ECE6D3;
+
+
 }
+.colour{
+
+    background-color: #771011;
+}
+
+/* pop up styling*/
+
+.popUp{
+    background-color: #C0BFB2;
+}
+
+.btn-styling{
+background-color: #6f635B;
+color: #ECE6D3;
+}
+.btn-styling:hover{
+background-color: #221712;
+color:#ECE6D3}
+
+
+
+
+.sidebar-header-style{
+    color: #771011;
+    border-bottom: #771011;
+}
+
+    .sidear-style{
+        background-color: #C0BFB2;
+        backdrop-filter: blur(50px);
+        border: none;
+    }
+
+/*footer*/
 .footer{
     background-color: #C0BFB2;
 padding: 10px;
@@ -17,30 +52,66 @@ font-size: 14pt;
 color: #221712;
 }
 
-.imgsize{
-width: 408px;
-height: 565px;
+/*contact page*/
 
+label{
+color: #ECE6D3;
 }
-
-.cardElements{
-    background-color: #C0BFB2;
-    color: #221712;
-    min-width: none;
-    height: 800px ;
-}
-
 .btn-danger{
+background-color: #771011;
+border: none;
+color: #ECE6D3;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.btn-danger:hover{
+    background-color:#221712;
+    border: none;
+    color: #ECE6D3;
+    padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+    }
+
+.btn-primary{
+background-color: #C0BFB2;
+border: none;
+color: #221712;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.btn-primary:hover{
 background-color: #ECE6D3;
 border: none;
 color: #221712;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.contact-style{
+background-color: #6f635B;
+border-radius: 20px;
+padding-bottom: 20px;
+
+margin: 20px;
 
 }
-.btn-danger:hover{
-background-color: #6f635B;
-border: none;
-color: #221712;
+
+.contact-text-style{
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
+
+/*navbar*/
 
 .navbar-style{
     background-color: #C0BFB2;
@@ -54,7 +125,7 @@ color: #221712;
 
 .dropdown-style{
     background-color: #6f635B;
-    color: #C0BFB2;
+    color: #ECE6D3;
 }
 .dropdown-style:hover{
     background-color: #221712;
@@ -65,4 +136,33 @@ color: #221712;
 .dropdown-menu-style{
     background-color: #6f635B;
     color: #C0BFB2;
+}
+
+
+.row{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+
+.column{
+    grid-column: span 3;
+    width:auto;
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction:column;
+
+    gap: 1rem;
+
+
+}
+
+
+.heading-style{
+
+
+border-top: #771011 20px;
 }
