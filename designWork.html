@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Work</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styling/style.css">
 </head>
-<body class="container-fluid">
+<body>
     <!--navbar-->
     
     <nav class=" navbar navbar-expand-lg navbar-style">
         <div class="container">
-
+            
             <!--logo-->
             <nav class="navbar">
                 <div class="container">
@@ -21,8 +21,8 @@
                     </a>
                 </div>
             </nav>
-
-<!--toggle button-->
+            
+            <!--toggle button-->
             <button class="navbar-toggler shadow-none border-Ø " 
             type="button" 
             data-bs-toggle="offcanvas" 
@@ -30,65 +30,161 @@
             aria-controls="offcanvasNavbar" 
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
+        </button>
+        
+        <!--sidebar-->
+        <div class=" sidebar sidear-style offcanvas offcanvas-start" 
+        tabindex="-1" id="offcanvasNavbar" 
+        aria-labelledby="offcanvasNavbarLabel">
+        
+        <!--SIDE BAR HEADER-->
+        <div class="offcanvas-header sidebar-header-style ">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            
+            <button type="button" 
+            class="btn-close btn-close-black shadow-none" 
+            data-bs-dismiss="offcanvas" 
+            aria-label="Close">
+        </button>
+        
+    </div>
+    
+    <!--side bar body-->
+    <div class="offcanvas-body navbar-style">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="aboutMe.html">About Me</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="contactMe.html">Contact Me</a>
+            </li>
+            
+            
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                </a>
+                <ul class="dropdown-menu dropdown-menu-style">
+                    <li><a class="dropdown-item dropdown-style" href="designWork.html">Design Work</a></li>
+                    <li><a class="dropdown-item dropdown-style" href="photogrpahy.html">Photogrpahy </a></li>
+                    <li><a class="dropdown-item dropdown-style" href="Illustrations.html">Illustrations</a></li>
+                </ul>
+            </li>
+            
+            
+            
+        </ul>
+        
+        
+    </ul>
+</div>
+</div>
+</div>
+</nav>
+<br>
+<!--header-->
 
-<!--sidebar-->
-            <div class=" sidebar sidear-style offcanvas offcanvas-start" 
-            tabindex="-1" id="offcanvasNavbar" 
-            aria-labelledby="offcanvasNavbarLabel">
-                
-            <!--SIDE BAR HEADER-->
-            <div class="offcanvas-header sidebar-header-style ">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+<div class="container-xxl px-2 mt-5">
+    <div class="heading py-4 heading-style border-bottom border-5 border-dark">
+        <h1 class="text-center">
+            MY PORTFOLIO
+        </h1>
+        
+    </div>
+</div>
 
-                    <button type="button" 
-                    class="btn-close btn-close-black shadow-none" 
-                    data-bs-dismiss="offcanvas" 
-                    aria-label="Close">
-                    </button>
-                    
-            </div>
+<br>
 
-                <!--side bar body-->
-                <div class="offcanvas-body navbar-style">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    
-                            <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="aboutMe.html">About Me</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="contactMe.html">Contact Me</a>
-                            </li>
-                            
-                            
-                            <li class="nav-item dropdown active">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Projects
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-style">
-                                    <li><a class="dropdown-item dropdown-style" href="designWork.html">Design Work</a></li>
-                                    <li><a class="dropdown-item dropdown-style" href="photogrpahy.html">Photogrpahy </a></li>
-                                    <li><a class="dropdown-item dropdown-style" href="Illustrations.html">Illustrations</a></li>
-                                </ul>
-                            </li>
-                            
-                            
-                            
-                        </ul>
+<div class="container-fluid">
+<div class="row">
 
+<!--col 1-->
+    <div class="column ">
 
-                    </ul>
-                </div>
+        <div class="card text-bg-dark ">
+            <img src="images/homepage2.png" class="card-img" alt="poster image">
+            <div class="card-img-overlay ">
+                <h5 class="card-title">Muza Music and Arts Fesitval </h5>
+                <p class="card-text">This project was created as part of a school assignment. 
+                    The aim was to create  a poster, infographic and an editorial spread for a 
+                    fictional event at Muza in Valletta, showcasing our creativity and design expertise. 
+                </p>
+                <a href="muzaproject.html" class="btn btn-primary">View</a>
             </div>
         </div>
-    </nav>
+
+        <div class="card text-bg-dark ">
+            <img src="images/homepage16.png" class="card-img" alt="poster image">
+            <div class="card-img-overlay ">
+                <h5 class="card-title">Re-Designing Movies</h5>
+                <p class="card-text">This project was a school assignment where I had 
+                    the opportunity to experiment with various design elements and techniques. 
+                    I focused on re-designing a movie in two distinct styles: one inspired by the 80s 
+                    and the other by Swiss design. 
+                </p>
+                <a href="ReDesigningMovie.html" class="btn btn-primary">View</a>
+
+            </div>
+        </div>
+    </div>
+
+<!--col 2-->
+    <div class="column">
+        <div class="card text-bg-dark">
+            <img src="images/homepage11.png" class="card-img" alt="brand image">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Ethereal Beauty</h5>
+                <p class="card-text">Ethereal Beauty was created as a school assignment to design a 
+                    logo for a fictional cosmetic company. the aim was to develop a unique concept from 
+                    scratch within a week and received valuable feedback from our peers to enhance our designs.  
+                </p>
+                <a href="EtherealBeauty.html" class="btn btn-primary">View</a>
+
+            </div>
+        </div>
+
+        <div class="card text-bg-dark">
+            <img src="images/homepage13.png" class="card-img" alt="poster image">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Local Store Branding</h5>
+                <p class="card-text">This is a school assignment project aimed at creating 
+                    compelling posters, brand logos, and business card designs for a local store. The project's goal is 
+                    to showcase my creativity as a student, design skills, 
+                    and ability to develop a brand identity that resonates with the store's target audience. 
+                </p>
+                <a href="LocalStoreBranding.html" class="btn btn-primary">View</a>
+
+            </div>
+        </div>
+    </div>
+
+<!--col-3-->
+    <div class="column">
+        <div class="card text-bg-dark card-styling">
+            <img src="images/homepage1.png" class="card-img" alt="poster image">
+            <div class="card-img-overlay">
+                <h5 class="card-title">K + M Wedding</h5>
+                <p class="card-text">I worked closely with a bride and groom to create custom wedding 
+                    invitations that perfectly reflected their colour theme and vision for their special day. 
+                    My goal was to ensure that the invitations were exactly what the couple wanted. 
+                </p>
+                <a href="KMWedding.html" class="btn btn-primary">View</a>
+
+            </div>
+        </div>
+        
+    </div>
 
 
+</div>
+</div>
+<br>
 
 <!--footer-->
 <footer class="footer">
@@ -98,7 +194,7 @@
         
     </div>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
 </body>
 </html>
