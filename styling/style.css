@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'numea-demo';
+    src: url(Numea\ DEMO.otf);
+}
+
+
+
+
 h1{
     color: #771011;
     font-size: 90pt;
+    font-family: "numea-demo";
 
 }
 
