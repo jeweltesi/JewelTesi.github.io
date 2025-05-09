@@ -5,6 +5,7 @@
 
 
 
+/*GENERAL STYLING*/
 
 h1{
     color: #771011;
@@ -33,6 +34,8 @@ html, body, #page {
     background-color: #771011;
 }
 
+
+
 /* pop up styling*/
 
 .popUp{
@@ -53,6 +56,7 @@ font-family:  Helvetica, Arial, sans-serif;
 
 
 
+/*SIDEBAR*/
 
 .sidebar-header-style{
     color: #771011;
@@ -201,11 +205,6 @@ font-family:  Helvetica, Arial, sans-serif;
     gap: 1rem;
 
 
-}
-
-
-.heading-style{
-border-top: #771011 20px;
 }
 
 
